@@ -2,7 +2,25 @@
 /*--------------------------------------------Images---------------------------------------------------------------*/
 
 
-body {
+
+/*body {*/
+/*    background: url("../images/all_for_one.jpg") no-repeat center center fixed; */
+    
+/*   background-repeat: no-repeat;*/
+/*    background-position: center center !important;*/
+/*    background-attachment: fixed;*/
+/*    -webkit-background-size: contain;*/
+/*    -moz-background-size: contain;*/
+/*    -o-background-size: contain;*/
+/*    background-size: contain;*/
+/*    background-color: black;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    float: none;*/
+
+/*}*/
+
+#page-index {
     background: url("../images/all_for_one.jpg") no-repeat center center fixed; 
     
    background-repeat: no-repeat;
@@ -16,8 +34,111 @@ body {
     padding: 0;
     margin: 0;
     float: none;
+  
 
 }
+
+ .page-discography {
+/*#page-discography {*/
+    background: url("../images/all_for_one.jpg") no-repeat center center fixed; 
+    
+   background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+#page-history {
+ background: no-repeat center center fixed!important; 
+    background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    /*-webkit-background-size: contain;*/
+    /*-moz-background-size: contain;*/
+    /*-o-background-size: contain;*/
+    /*background-size: contain;*/
+    background-color: black;
+    /*padding-top: 20vh;*/
+    padding: 0;
+    margin: auto 0;
+    float: none;
+    max-width: 100vw!important;
+
+}
+
+ #page-blog {
+    background: url("../images/Raven-all-for-one-squared.jpg") no-repeat center center fixed; 
+    
+   background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+
+ #page-tour {
+    background: url("../images/Raven-logo.jpg") no-repeat center center fixed; 
+    
+   background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+
+ #page-links {
+    background: url("../images/Raven-logo.jpg") no-repeat center center fixed; 
+   background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+
+ #page-booking {
+    background: url("../images/Raven-logo.jpg") no-repeat center center fixed;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+    /*height: auto;*/
+    /*width: auto;*/
+}
+
 
 
 
@@ -79,6 +200,8 @@ body {
 
 
 .navbar {
+    /*font-family: Arial, sans-serif */
+    font-family: 'Inknut Antiqua', serif !important;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -93,15 +216,17 @@ body {
      }
      
 .navbar-nav {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
     opacity: 0.7;
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
     background-color: black;
 }
 .navbar-nav > li {
-  float: none;
-  display: inline-block;
-      color: red !important;
+    float: none;
+    display: inline-block;
+    color: red !important;
     font-size: 1.1em !important;
     font-weight: bold !important;
     background-color: black;
@@ -109,17 +234,27 @@ body {
  
 .navbar-nav > li > a {
     color: red !important;
-    font-size: 1.5em !important;
-    font-weight: bold !important;
+    font-size: 1.2em !important;
+    font-weight: 900 !important;
     background-color: black;
 
 }
 
 
-a:hover{
+.navbar-nav > li > a:hover{
 color: white !important;
-background-color: transparent!important;
+font-weight: 900 !important;
+background-color: red!important;
+/*background-color: transparent!important;*/
 }
+
+
+/*.navbar-default .navbar-nav > .active > a,*/
+/*.navbar-default .navbar-nav > .active > a:hover,*/
+/*.navbar-default .navbar-nav > .active > a:focus {*/
+/*    color: #ff0000*/
+
+/*}*/
 
 /*a:active{*/
 /*color: white !important;*/
@@ -179,12 +314,7 @@ color: #faebd7 !important;
 
 
 
-/*.navbar-default .navbar-nav > .active > a,*/
-/*.navbar-default .navbar-nav > .active > a:hover,*/
-/*.navbar-default .navbar-nav > .active > a:focus {*/
-/*    color: #ff0000*/
 
-/*}*/
 
 /*.navbar-inverse{*/
  
@@ -348,7 +478,7 @@ color: #faebd7 !important;
 
 
  
- /*--------------------------------------------Columns---------------------------------------------------------------*/
+ /*-------------------------------------------- Home Columns---------------------------------------------------------------*/
 
 /*.container{*/
     /*max-width: 600px;*/
@@ -471,18 +601,11 @@ color: #faebd7 !important;
     float: none;
  }
  
- .columns-section-class{
-     margin: 0 auto;
-     height: 30vh;
-     width: 35vw;
-    padding-top: 07vh;
-    padding-left: 0;
-    padding-right: 0;
-    justify-content: center;
-    vertical-align:middle;
-    align-items: center;
-    float: none;
- }
+
+ 
+
+ 
+
  
  /*.col-xs-12 .col-sm-12{*/
  /*    min-height: 100%;*/
@@ -498,7 +621,12 @@ color: #faebd7 !important;
     /*margin-left:2px;*/
     /*margin-right: 2px;*/
     margin-top:0;
+    /*padding-top:30vh!important;*/
 }
+
+
+
+
 
 .latest-news-item{
     color: #ffffff;
@@ -551,20 +679,760 @@ color: #faebd7 !important;
 /*}*/
 
 
+ /*-------------------------------------------- History Columns---------------------------------------------------------------*/
 
 
-/*.list-group-horizontal .list-group-item {*/
-/*    margin-bottom: 0;*/
-/*    margin-left:-4px;*/
-/*    margin-right: 0;*/
-/*    border-right-width: 0;*/
+.history-column{
+ padding-top: 10vh!important;
+ padding-left: 5vw!important;
+ padding-right: 5vw!important;
+  padding-bottom: 10vh!important;
+}
+
+.raven-history { 
+    display: block;
+     /*padding-top: 10vh!important;*/
+     padding-left: 5vw!important;
+     padding-right: 5vw!important;
+    font-family: Arial, sans-serif  !important;
+    font-weight:800 !important;
+    font-size: 1.2em;
+    /*color: white !important;*/
+    color: black !important;
+    text-align: left;
+    /*display: flex;*/
+    /*background-color: black;*/
+    background-color: white !important;;
+    opacity: 1!important;
+    -moz-opacity: 1;
+   -khtml-opacity: 1;
+   /* opacity: 0.7!important;*/
+   /* -moz-opacity: 0.7;*/
+   /*-khtml-opacity: 0.7;*/
+    float:none;
+    margin:0 auto;
+    overflow-y:scroll; 
+}
+    
+    .raven-history-2{
+      display: block;
+     /*padding-top: 20vh!important;*/
+     /*padding-top: 10px!important;*/
+     /*padding-left: 5vw!important;*/
+     /*padding-right: 5vw!important;*/
+    font-family: Arial, sans-serif  !important;
+    font-weight:800 !important;
+    font-size: 1.2em;
+    /*color: white !important;*/
+    color: black !important;
+    text-align: left;
+    /*display: flex;*/
+    /*background-color: black;*/
+    background-color: white !important;;
+    opacity: 1!important;
+    -moz-opacity: 1;
+   -khtml-opacity: 1;
+       float:none;
+    margin:0 auto;
+   
+}
+
+.hierarchy { 
+ opacity: 1 !important;
+ margin-bottom: 15px;
+
+}
+
+/* To be worked on */
+/*p {*/
+/*  margin-top: 0em;*/
+/*  margin-bottom: 2em;*/
 /*}*/
-/*.list-group-horizontal .list-group-item:first-child {*/
-/*    border-top-right-radius:0;*/
-/*    border-bottom-left-radius:4px;*/
+
+
+
+/*.tree-container {*/
+/*  width: 100%;*/
+/*  background: #fff;*/
+/*  margin: 0 auto;*/
+  /* just to get an apsect ratio same as the SVG's: */
+/*  padding-top: 5%; */
+/*  height: 100%; */
+/*  background-image: url(../images/Raven-Tree.svg);*/
+/*  background-size: contain;*/
+/*  background-repeat: no-repeat;*/
 /*}*/
-/*.list-group-horizontal .list-group-item:last-child {*/
-/*    border-top-right-radius:4px;*/
-/*    border-bottom-left-radius:0;*/
-/*    border-right-width: 1px;*/
+
+
+.tree-container {
+  width: 100%;
+  margin: 0 auto;
+  /* just to get an apsect ratio same as the SVG's: */
+  padding-top: 5%;
+  opacity: 1;
+
+}
+
+
+/*.raven-history { */
+/*    padding-top: 10vh!important;*/
+/*    font-family: Arial, sans-serif  !important;*/
+/*    font-weight:800 !important;*/
+/*    font-size: 1.2em;*/
+/*    color: white !important;*/
+/*    text-align: left;*/
+    /*display: flex;*/
+/*    background-color: black;*/
+/*    opacity: 0.7 !important;*/
+/*    float:none;*/
+/*    margin:0 auto;*/
+    
+/*}*/
+
+ /*-------------------------------------------- Discography Columns---------------------------------------------------------------*/
+
+.raven-discography h1{
+   font-size: 18px!important;
+     color: red!important;
+}
+
+  .raven-discography caption {
+     color: red!important;
+     font-size: 24px!important;
+     font-weight: 900!important;
+ }
+
+
+  .raven-discography th {
+  color: red!important;
+}
+
+ .raven-discography td {
+   color: white!important;
+}
+
+ /*-------------------------------------------- Media Columns---------------------------------------------------------------*/
+ 
+@media only screen and (max-width : 1200px) {
+ .media-columns-section-class{
+    /*margin: 300px;*/
+     height: 70vh!important;
+     width: 100vw!important;
+    padding-top: 20vh !important;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align: top !important;
+    align-items: center;
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+    position: relative
+    /*padding-left: 1px !important;*/
+     }
+}
+
+@media only screen and (max-width : 979px) {
+ .media-columns-section-class{
+    margin: 0 auto;
+     height: 30vh;
+     width: 35vw;
+    padding-top: 07vh;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align:middle;
+    align-items: center;
+    float: none;
+     }
+}
+
+@media only screen and (max-width : 767px) {
+ .media-columns-section-class{
+    margin: 0 auto;
+     height: 30vh;
+     width: 35vw;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align:middle;
+    align-items: center;
+    float: none;
+     }
+}
+
+@media only screen and (max-width : 480px) {
+ .media-columns-section-class{
+    /*margin: 0 auto;*/
+    margin: 0 auto;
+     height: 0;
+     width: 35vw;
+    padding-top: 0 !important;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align: top !important;
+    align-items: center;
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+    position: relative
+    /*padding-left: 1px !important;*/
+     }
+}
+
+@media only screen and (max-width : 320px) {
+ .media-columns-section-class{
+    margin: 0 auto;
+     height: 30vh;
+     width: 35vw;
+    padding-top: 0;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align:top;
+    align-items: center;
+    float: none;
+    overflow-x: hidden !important;
+        min-height:100%;
+    position: relative;
+    /*padding-left: 1px !important;*/
+     }
+}
+
+  .media-columns-section-class{
+    margin: 0 auto;
+     height: 30vh;
+     width: 100%;
+    padding-top: 10vh;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    vertical-align:middle;
+    align-items: center;
+    float: none;
+ }
+
+
+ .music {
+     color: white!important;
+     font-weight:800!important;
+     font-size: 0.9em!important;
+ }
+ 
+  .music2 {
+     color: white!important;
+     font-weight:800!important;
+     font-size: 0.8em!important;
+ }
+ 
+  .music-button.play{
+    color: red!important;
+     font-weight:800!important;
+     font-size: 0.8em!important;
+  }
+  
+  
+   .section-column-video{
+    color:red;
+    /*margin-left:2px;*/
+    /*margin-right: 2px;*/
+    /*margin-top:20vh!important;*/
+}
+
+ .section-column-latest-news{
+    color:red;
+    /*margin-left:2px;*/
+    /*margin-right: 2px;*/
+    margin-top:0;
+    /*padding-top:30vh!important;*/
+}
+
+
+
+ .photo-text{
+     padding-left: 5vh!important;
+     color:red!important;
+     font-weight:800!important;
+     font-size: 0.9em!important;
+ }
+
+.section-column-photos{
+     color: red!important;
+     font-weight:800!important;
+     font-size: 2vh!important;
+    padding-left: 4vh!important;
+    /*margin-left:2px;*/
+    /*margin-right: 2px;*/
+}
+
+
+/*-------------------------------------------- Blog Columns---------------------------------------------------------------*/
+
+
+
+ .blog-columns{
+  padding-left: 30vw;
+  padding-right: 30vw;
+   padding-top: 20vh;
+ }
+
+ .blog-para{
+  margin-top:0;
+  margin-bottom: 5vh;
+  padding-top: 0;
+  color: white!important;
+  font-size: medium;
+ }
+ 
+ 
+ .blog-table{
+
+}
+
+ .para-header{
+  margin: 0 auto;
+  padding-top: 0!important;
+  color: red!important;
+ }
+
+
+@media only screen and (max-width : 1200px) {
+ .blog-columns{
+
+    padding-top: 30vh !important;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+
+     }
+}
+
+@media only screen and (max-width : 979px) {
+ .blog-columns{
+
+    padding-top: 10vh !important;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+     }
+}
+
+@media only screen and (max-width : 767px) {
+ .blog-columns{
+
+    padding-top: 10vh !important;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+     }
+}
+
+@media only screen and (max-width : 480px) {
+ .blog-columns{
+  
+  
+
+    padding-top: 5vw !important;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+    margin-bottom: 5%
+     }
+}
+
+
+
+@media only screen and (min-width:374px) and (max-width : 376px) {
+ .blog-columns{
+
+    padding-top: 10vh!important;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+ }
+}
+
+
+@media only screen and (max-width : 320px) {
+ .blog-columns{
+
+    padding-top: 0!important;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+ }
+}
+
+
+/*-------------------------------------------- Tour Dates Columns---------------------------------------------------------------*/
+
+.tour-table  {
+
+    padding-top: 10vw !important;
+    padding-left: 10vw;
+    padding-right: 10vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+ }
+
+
+
+
+
+ @media only screen and (min-width:1023px) and (max-width : 1025px) {
+ .tour-table{
+
+    padding-top: 25vh!important;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+    float: none !important;
+    overflow-x: hidden !important;
+    min-height:100%;
+ }
+}
+
+
+ .tour-data{
+ color:white;
+}
+
+
+ .tour-head{
+ font-size: 2em;
+}
+
+
+
+/*-------------------------------------------- Links Columns---------------------------------------------------------------*/
+
+
+.links-header {
+ font-size: 3em!important;
+  font-weight: bold!important;
+  color:red;
+  opacity:1!important;
+}
+
+
+/*.raven-discography h1{*/
+/*   font-size: 18px!important;*/
+/*     color: red!important;*/
+/*}*/
+
+
+
+
+  .links-table th {
+  color: red!important;
+  /*font-size: 20px!important;*/
+  font-size: large!important;
+  padding: 0;
+  margin: 0;
+}
+
+ .links-table td {
+  color: white!important;
+    font-size: large!important;
+  /*font-size: 20px!important;*/
+  font-weight:bold !important;
+  padding: 0;
+  margin: 0;
+}
+
+ /*.links-columns{*/
+ /* padding-left: 31vw;*/
+ /* padding-right: 31vw;*/
+ /*  padding-top: 15vh;*/
+ /*}*/
+
+
+ /*.links-columns{*/
+ /* padding-left: vw;*/
+ /* padding-right: 31vw;*/
+ /*  padding-top: 15vh;*/
+ /*  margin: 0 auto;*/
+ /*  float: none;*/
+ /*  overflow-x: hidden !important;*/
+ /*}*/
+
+
+
+/* .links-table {*/
+/*   margin: 0 auto;*/
+/*   width: 50% !important; */
+/*}*/
+
+/*.link-table td.fit, */
+/*.link-table th.fit {*/
+/*    white-space: nowrap;*/
+/*    width: 1%;*/
+/*}*/
+
+
+.links-table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+  /*font-size: 20px!important;*/
+}
+
+/* .links-table td {*/
+/*  font-weight:bold !important; */
+/*  white-space: normal !important; */
+/*  word-wrap: break-word;  */
+  /*float: none !important;*/
+  /*margin: 0 auto;*/
+  /* overflow-x: hidden !important;*/
+  /* min-height: 100%;*/
+/*}*/
+
+
+ @media only screen and (max-width : 414px) {
+ 
+ .links-table tbody {
+    height: 100px !important;
+    overflow: scroll;
+    display:block;
+
+ }
+ 
+  .links-columns{
+   padding-top: 10vh;
+   margin: 0 auto;
+   float: none;
+ 
+  }
+  
+
+}
+
+ @media only screen and (min-width : 415px) {
+ 
+
+  .links-columns{
+   padding-top: 20vh;
+   margin: 0 auto;
+   float: none;
+ 
+ 
+  }
+  .links-table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+  }
+  
+    .links-table tbody{
+       font-size: 20px!important;
+  }
+}
+
+
+/*-------------------------------------------- Contacts/Bookings Columns---------------------------------------------------------------*/
+
+  .contact-columns{
+   padding-top: 25vh;
+   padding-left: 0;
+   margin: 0 auto;
+   float: none;
+ 
+ 
+  }
+  .contact-table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: black;
+  color:red;
+  }
+  
+    .contact-table tbody{
+     font-size: 1em!important;
+     width: 50%;
+     margin: 0 auto !important;
+     background-color: black;
+     color:white;
+     /*border: none;*/
+  }
+  
+.borderless tr td  {
+    border: none !important;
+    padding: 0px !important;
+    font-size: 1.3em;
+}
+
+.borderless tr{
+    border-top: hidden;
+}
+
+.booking-form{
+ padding-right: 2vw;
+
+}
+  
+label{
+ font-family: Arial, Helvetica, sans-serif!important;
+ font-weight: bolder!important;
+}
+ 
+ 
+.bg-no-overlay {
+     background: url("../images/Raven-silver-logo-canvas.jpg"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    /*color: #fff;*/
+    /*height: 450px;*/
+    /*height: 90px;*/
+    width: 300px;
+    padding-bottom:20px;
+} 
+ 
+ .btn-transparent{
+  background-color: transparent;
+    background-size: contain;
+    background-position: center center;
+    /*color: #fff;*/
+  color: red;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-bottom:75px!important;
+ }
+ .btn-position{
+     position:absolute;
+    bottom:50%;
+    right:50%;
+    width:100px;
+    height:70px;
+/*margin:0px -50px -15px 0px;*/
+  /*margin-bottom:200px!important;*/
+  
+  /* position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 20px;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 50px;*/
+  /*text-align: center;*/
+  /* border-radius: 6px;*/
+}
+ 
+/*  .btn-send{*/
+/*   background-color:white!important;*/
+/*   color:red;*/
+/*  }*/
+ 
+ 
+/*.display-flex {*/
+
+/*display: -webkit-box;*/
+
+/*display: -ms-flexbox;*/
+
+/*display: flex;*/
+
+/*-webkit-box-align: center;*/
+
+/*-ms-flex-align: center;*/
+
+/*align-items: center;*/
+
+/*-webkit-box-pack: center;*/
+
+/*-ms-flex-pack: center;*/
+
+/*justify-content: center;*/
+
+/*-webkit-box-orient: vertical;*/
+
+/*-webkit-box-direction: normal;*/
+
+/*-ms-flex-direction: column;*/
+
+/*flex-direction: column;*/
+
+/*}*/
+
+/*.hero-image-overlay {*/
+
+/*position: absolute;*/
+
+/*text-align: center;*/
+
+/*width: 50%;*/
+
+/*}*/
+
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+
+/*.image-overlay button  {*/
+
+/*color: #FFFFFF;*/
+
+/*background-color: #E26432;*/
+
+/*border: none;*/
+
+/*padding: 15px 25px;*/
+
+/*font-size: 19px;*/
+
+/*font-family: 'Roboto', sans-serif;*/
+
+/*font-weight: 300;*/
+
+/*} */
+  
+
+  /*.contact-data{*/
+ 
+  /*   color:white;*/
+  /*}*/
+
+
+/*table.table {*/
+/*    width: auto;*/
+/*    margin:0 auto;*/
+/*}*/
+
+/** only for the head of the table. */
+/*table.table thead th {*/
+/*    padding:0;*/
+/*}*/
+
+/** only for the body of the table. */
+/*table.table tbody td {*/
+/*    padding:0;*/
 /*}*/
