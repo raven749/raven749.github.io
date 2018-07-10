@@ -1,3 +1,9 @@
+html {
+  height: 100%;
+
+}
+
+
 
 /*--------------------------------------------Images---------------------------------------------------------------*/
 
@@ -34,13 +40,18 @@
     padding: 0;
     margin: 0;
     float: none;
+    padding-bottom: 120px;
+    position:relative;
+    min-height:100%;
+    padding-bottom: 800px
+    
   
 
 }
 
- .page-discography {
-/*#page-discography {*/
-    background: url("../images/all_for_one.jpg") no-repeat center center fixed; 
+ /*.page-discography {*/
+#page-discography {
+    background: url("../images/Raven-logo.jpg") no-repeat center center fixed; 
     
    background-repeat: no-repeat;
     background-position: center center !important;
@@ -55,23 +66,58 @@
     float: none;
 }
 
-#page-history {
- background: no-repeat center center fixed!important; 
-    background-repeat: no-repeat;
+
+
+ #page-media {
+    background: url("../images/Raven-logo.jpg") no-repeat center center fixed; 
+    
+   background-repeat: no-repeat;
     background-position: center center !important;
     background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+
+#page-history {
+     background: url("../images/Raven-logo.jpg") no-repeat center center fixed; 
+        background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+    /*background: no-repeat center center fixed!important; */
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center !important;*/
+    /*background-attachment: fixed;*/
     /*-webkit-background-size: contain;*/
     /*-moz-background-size: contain;*/
     /*-o-background-size: contain;*/
     /*background-size: contain;*/
-    background-color: black;
+    /*background-color: black!important;*/
     /*padding-top: 20vh;*/
-    padding: 0;
-    margin: auto 0;
-    float: none;
-    max-width: 100vw!important;
+    /*padding: 0;*/
+    /*margin: auto 0;*/
+    /*float: none;*/
+    /*min-height: 100%!important;*/
+    /*max-width: 100vw!important;*/
+    /*padding-bottom:800px;*/
 
-}
+
 
  #page-blog {
     background: url("../images/Raven-all-for-one-squared.jpg") no-repeat center center fixed; 
@@ -208,10 +254,11 @@
     align-items: center;
     vertical-align: middle;
     color: red;
-    background-color: black;
-    opacity: 0.7;
-        float:none;
+    background-color: transparent;
+    float:none;
     margin:0 auto;
+    position: fixed;
+    width: 100%;
 
      }
      
@@ -222,6 +269,8 @@
     -moz-opacity: 0.7;
     -khtml-opacity: 0.7;
     background-color: black;
+
+    
 }
 .navbar-nav > li {
     float: none;
@@ -249,6 +298,17 @@ background-color: red!important;
 }
 
 
+ .navbar-nav > .active > a {
+color: #faebd7 !important;
+}
+
+
+.navbar .navbar-default .navbar-inverse .nav-postition li a{
+    color: red;
+}
+
+
+
 /*.navbar-default .navbar-nav > .active > a,*/
 /*.navbar-default .navbar-nav > .active > a:hover,*/
 /*.navbar-default .navbar-nav > .active > a:focus {*/
@@ -261,9 +321,6 @@ background-color: red!important;
 /*background-color: transparent!important;*/
 /*}*/
 
- .navbar-nav > .active > a {
-color: #faebd7 !important;
-}
 
 /*#RavenNavBar .navbar-nav li.active > a {*/
 /*color: #faebd7 !important;*/
@@ -287,9 +344,6 @@ color: #faebd7 !important;
 /*    color: #ff0000;*/
 /*}*/
 
-.navbar .navbar-default .navbar-inverse .nav-postition li a{
-    color: red;
-}
 
 /*#ravennavbar  li a{*/
 /*	margin:0 20px;*/
@@ -344,6 +398,10 @@ color: #faebd7 !important;
 /*    right:0px;*/
 /*}*/
 
+.media-list{
+ padding-top: 2vh;
+}
+
 .list-section-class{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -358,19 +416,52 @@ color: #faebd7 !important;
    text-align: left;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
   
 }
 
 
 .list-inline .list-group-item {
-  background-color: red;
-  border-top: 1px solid white;
+  background-color: white;
+  border-top: 1px solid red;
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
-.list-inline .list-group-item:hover {
-  background-color: white;
+
+
+/*.list-group-horizontal li:hover ul a:hover {*/
+/*   background-color: red!important;*/
+/*   color: white!important;*/
+/*}*/
+
+/*.list-group-horizontal a.active {*/
+/*   background-color: red!important;*/
+/*   color: white!important;*/
+/*}*/
+
+
+
+/*.list-inline .list-group-item:hover {*/
+/*   background-color: red!important;*/
+/*   color: white!important;*/
+/*}*/
+
+/*.list-group-item:hover {*/
+/*   background-color: red!important;*/
+/*   color: white!important;*/
+/*}*/
+   
+/*.list-group-horizontal.active, .list-group-horizontal.active:hover, .list-group-horizontal.active:focus {*/
+/* z-index:2; */
+/*   background-color: red!important;*/
+/*   color: white!important;*/
+/*} */
+
+
+.social-media-list ul li a:hover i {
+   background-color: red!important;
+   color: white!important;
 }
 
 
@@ -393,8 +484,15 @@ color: #faebd7 !important;
     /*justify-content: center;*/
     /*align-items: center;*/
     display: block;
+    position: relative;
 
  }
+ 
+ .media-list {
+  padding-top: 7vh!important;
+ }
+ 
+ 
 
 @media (max-width:768px){
   .list-group-horizontal li {
@@ -403,7 +501,8 @@ color: #faebd7 !important;
     flex-grow: 1;
     padding: 0;
     margin: 0;
-    border: 0.5px solid #ffffff ;
+    /*border: 0.5px solid #ffffff ;*/
+       border: 2px solid #000000 ;
     line-height: 0.5em;
     color: #ff0000;
     background-color: black; 
@@ -451,7 +550,7 @@ color: #faebd7 !important;
     border-color: #ffffff ; 
     text-align:left;
     font-weight: 800;
-    font-size: 80%;  
+    font-size: 80%; 
      
     }
 }
@@ -503,8 +602,8 @@ color: #faebd7 !important;
  .columns-section-class{
     /*margin: 300px;*/
      height: 70vh!important;
-     width: 80vw!important;
-    padding-top: 250px !important;
+     width: 40vw!important;
+    padding-top: 15vh !important;
     padding-right: 0;
     justify-content: center;
     vertical-align: top !important;
@@ -512,7 +611,7 @@ color: #faebd7 !important;
     float: none !important;
     overflow-x: hidden !important;
     min-height:100%;
-    position: relative
+    position: relative;
     /*padding-left: 1px !important;*/
      }
 }
@@ -521,7 +620,7 @@ color: #faebd7 !important;
  .columns-section-class{
     margin: 0 auto;
      height: 30vh;
-     width: 35vw;
+     width: 10vw;
     padding-top: 07vh;
     padding-left: 0;
     padding-right: 0;
@@ -536,7 +635,7 @@ color: #faebd7 !important;
  .columns-section-class{
     margin: 0 auto;
      height: 30vh;
-     width: 35vw;
+     width: 50vw;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -592,7 +691,7 @@ color: #faebd7 !important;
     margin: 0 auto;
      height: 30vh;
      width: 35vw;
-    padding-top: 07vh;
+    padding-top: 15vh;
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
@@ -684,10 +783,12 @@ color: #faebd7 !important;
 
 .history-column{
  padding-top: 10vh!important;
- padding-left: 5vw!important;
- padding-right: 5vw!important;
+ /*padding-left: 5vw!important;*/
+ /*padding-right: 5vw!important;*/
   padding-bottom: 10vh!important;
+background: rgba(0, 0, 0, 0.2);
 }
+
 
 .raven-history { 
     display: block;
@@ -697,12 +798,10 @@ color: #faebd7 !important;
     font-family: Arial, sans-serif  !important;
     font-weight:800 !important;
     font-size: 1.2em;
-    /*color: white !important;*/
-    color: black !important;
+    color: white !important;
     text-align: left;
     /*display: flex;*/
-    /*background-color: black;*/
-    background-color: white !important;;
+    background-color: black!important;
     opacity: 1!important;
     -moz-opacity: 1;
    -khtml-opacity: 1;
@@ -718,23 +817,31 @@ color: #faebd7 !important;
       display: block;
      /*padding-top: 20vh!important;*/
      /*padding-top: 10px!important;*/
-     /*padding-left: 5vw!important;*/
-     /*padding-right: 5vw!important;*/
+     padding-left: 5vw!important;
+     padding-right: 5vw!important;
     font-family: Arial, sans-serif  !important;
     font-weight:800 !important;
     font-size: 1.2em;
-    /*color: white !important;*/
-    color: black !important;
+    color: white !important;
     text-align: left;
     /*display: flex;*/
-    /*background-color: black;*/
-    background-color: white !important;;
+    background-color: black!important;
     opacity: 1!important;
     -moz-opacity: 1;
    -khtml-opacity: 1;
        float:none;
     margin:0 auto;
    
+}
+
+.history-header{
+ background-color:transparent;
+ background: rgba(255, 0, 0, 0)!important;
+  font-family: "Lithos Pro Regular";
+ font-size: 3em!important;
+  font-weight: bold!important;
+  color:red;
+  padding-top: 3vh; 
 }
 
 .hierarchy { 
@@ -769,7 +876,11 @@ color: #faebd7 !important;
   margin: 0 auto;
   /* just to get an apsect ratio same as the SVG's: */
   padding-top: 5%;
-  opacity: 1;
+  padding-left: 5vw!important;
+  padding-right: 5vw!important;
+  opacity: 0.7;
+  /*backgound: black!important*/
+  background: rgba(0, 0, 0, 0.1);
 
 }
 
@@ -791,8 +902,22 @@ color: #faebd7 !important;
 
  /*-------------------------------------------- Discography Columns---------------------------------------------------------------*/
 
-.raven-discography h1{
-   font-size: 18px!important;
+.discography-container{
+padding-top: 23vh
+}
+
+.discography-header{
+ font-family: "Lithos Pro Regular";
+ font-size: 3em!important;
+  font-weight: bold!important;
+  color:red;
+  opacity:1!important;
+  padding-top: 3vh; 
+
+}
+
+.raven-discography th{
+   font-size: 1.6em!important;
      color: red!important;
 }
 
@@ -803,11 +928,8 @@ color: #faebd7 !important;
  }
 
 
-  .raven-discography th {
-  color: red!important;
-}
-
  .raven-discography td {
+   font-size: 1.3em!important;
    color: white!important;
 }
 
@@ -902,7 +1024,7 @@ color: #faebd7 !important;
     margin: 0 auto;
      height: 30vh;
      width: 100%;
-    padding-top: 10vh;
+    padding-top: 24vh;
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
@@ -972,7 +1094,7 @@ color: #faebd7 !important;
  .blog-columns{
   padding-left: 30vw;
   padding-right: 30vw;
-   padding-top: 20vh;
+   padding-top: 25vh;
  }
 
  .blog-para{
@@ -998,7 +1120,7 @@ color: #faebd7 !important;
 @media only screen and (max-width : 1200px) {
  .blog-columns{
 
-    padding-top: 30vh !important;
+    padding-top: 32vh !important;
     padding-left: 10vh;
     padding-right: 10vh;
 
@@ -1012,7 +1134,7 @@ color: #faebd7 !important;
 @media only screen and (max-width : 979px) {
  .blog-columns{
 
-    padding-top: 10vh !important;
+    padding-top: 20vh !important;
     padding-left: 10vh;
     padding-right: 10vh;
 
@@ -1025,7 +1147,7 @@ color: #faebd7 !important;
 @media only screen and (max-width : 767px) {
  .blog-columns{
 
-    padding-top: 10vh !important;
+    padding-top: 20vh !important;
     padding-left: 10vh;
     padding-right: 10vh;
 
@@ -1092,6 +1214,7 @@ color: #faebd7 !important;
     float: none !important;
     overflow-x: hidden !important;
     min-height:100%;
+    color: white;
  }
 
 
@@ -1119,6 +1242,7 @@ color: #faebd7 !important;
 
  .tour-head{
  font-size: 2em;
+ color:red;
 }
 
 
@@ -1127,10 +1251,22 @@ color: #faebd7 !important;
 
 
 .links-header {
+ font-family: "Lithos Pro Regular";
  font-size: 3em!important;
   font-weight: bold!important;
   color:red;
   opacity:1!important;
+  padding-top: 3vh;
+}
+
+.header-shadow
+{
+    /*color: white;*/
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
 }
 
 
@@ -1145,7 +1281,7 @@ color: #faebd7 !important;
   .links-table th {
   color: red!important;
   /*font-size: 20px!important;*/
-  font-size: large!important;
+  font-size: larger!important;
   padding: 0;
   margin: 0;
 }
@@ -1157,7 +1293,20 @@ color: #faebd7 !important;
   font-weight:bold !important;
   padding: 0;
   margin: 0;
+ }
+
+ .links-table td a {
+  color: white!important;
+    font-size: large!important;
+  /*font-size: 20px!important;*/
+  font-weight:bold !important;
+  padding: 0;
+  margin: 0;
+  /*display:block;*/
+  /*width:100%;*/
+
 }
+
 
  /*.links-columns{*/
  /* padding-left: 31vw;*/
@@ -1194,6 +1343,7 @@ color: #faebd7 !important;
   border-spacing: 0;
   border-collapse: collapse;
   /*font-size: 20px!important;*/
+  Cellpadding:0
 }
 
 /* .links-table td {*/
@@ -1213,6 +1363,8 @@ color: #faebd7 !important;
     height: 100px !important;
     overflow: scroll;
     display:block;
+    border-spacing: 0;
+    border-collapse: collapse;
 
  }
  
@@ -1220,6 +1372,8 @@ color: #faebd7 !important;
    padding-top: 10vh;
    margin: 0 auto;
    float: none;
+   padding-left:0;
+   padding-right:0;
  
   }
   
@@ -1233,6 +1387,10 @@ color: #faebd7 !important;
    padding-top: 20vh;
    margin: 0 auto;
    float: none;
+   border-spacing: 0;
+   border-collapse: collapse;
+   padding-left:0;
+   padding-right:0;   
  
  
   }
@@ -1247,6 +1405,19 @@ color: #faebd7 !important;
   }
 }
 
+ /*.links-columns.no-gutter{*/
+/*.row.no-gutter {*/
+/*  margin-left: 0;*/
+/*  margin-right: 0;*/
+/*}*/
+
+/*.row.no-gutter [class*='col-']:not(:first-child),*/
+/*.row.no-gutter [class*='col-']:not(:last-child) {*/
+/* .links-columns.no-gutter [class*='col-']:not(:first-child),*/
+/* .links-columns-gutter [class*='col-']:not(:last-child) {*/
+/*  padding-right: 0;*/
+/*  padding-left: 0;*/
+/*}*/
 
 /*-------------------------------------------- Contacts/Bookings Columns---------------------------------------------------------------*/
 
@@ -1325,6 +1496,110 @@ label{
     right:50%;
     width:100px;
     height:70px;
+    
+ }
+    
+    
+/*-------------------------------------------- Footer---------------------------------------------------------------*/    
+
+
+
+
+    /*    #wrap {*/
+    /*  min-height: 100%;*/
+    /*  height: auto !important;*/
+    /*  height: 100%;*/
+      /* Negative indent footer by it's height */
+    /*  margin: 0 auto -200px;*/
+    /*}*/
+
+      /* Set the fixed height of the footer here */
+    /*  #push,*/
+    /*  #footer {*/
+    /*    height: 200px;*/
+    /*  }*/
+      
+    /*#footer {   */
+    /*        position: absolute;*/
+    /*}*/
+    
+ 
+    
+    .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: flex;
+    }
+  
+  .raven-logo{
+    float: none;
+    vertical-align: bottom;
+    position:relative;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0;
+     bottom:0;
+     margin-bottom: 0;
+}
+  .copyright{
+   font-family: sans-serif;
+   color: red!important;
+   font-size: 2em!important;
+   background-color: transparent!important;
+   font-weight: bolder;
+   position:relative;
+    display: flex;
+    align-items: flex-end;
+    /*float: none;*/
+    padding-bottom: 0;
+    vertical-align: bottom;
+     bottom:0;
+     margin-bottom: 0;
+
+  }
+  
+  
+  .contact{
+    /*float: none;*/
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+    /*float: none;*/
+    padding-bottom: 0;
+     bottom:0;
+     margin-bottom: 0;
+  }
+  
+  .contact-link{
+   font-family: sans-serif;
+   color: red!important;
+   font-size: 4em!important;
+   background-color: transparent!important;
+  }
+
+
+/*-------------------------------------------- History Footer-----------------------------------------------*/ 
+
+    .history-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  background:black;
+  
+    }
+  
+      
 /*margin:0px -50px -15px 0px;*/
   /*margin-bottom:200px!important;*/
   
@@ -1336,7 +1611,7 @@ label{
   /*margin-bottom: 50px;*/
   /*text-align: center;*/
   /* border-radius: 6px;*/
-}
+
  
 /*  .btn-send{*/
 /*   background-color:white!important;*/
