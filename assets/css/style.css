@@ -903,7 +903,7 @@ background: rgba(0, 0, 0, 0.2);
  /*-------------------------------------------- Discography Columns---------------------------------------------------------------*/
 
 .discography-container{
-padding-top: 23vh
+padding-top: 14vh
 }
 
 .discography-header{
@@ -989,7 +989,7 @@ padding-top: 23vh
     margin: 0 auto;
      height: 0;
      width: 35vw;
-    padding-top: 0 !important;
+    padding-top: 3!important;
     padding-right: 0;
     justify-content: center;
     vertical-align: top !important;
@@ -1024,7 +1024,7 @@ padding-top: 23vh
     margin: 0 auto;
      height: 30vh;
      width: 100%;
-    padding-top: 24vh;
+    padding-top: 18vh;
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
@@ -1094,7 +1094,7 @@ padding-top: 23vh
  .blog-columns{
   padding-left: 30vw;
   padding-right: 30vw;
-   padding-top: 25vh;
+   padding-top: 18vh;
  }
 
  .blog-para{
@@ -1346,15 +1346,7 @@ padding-top: 23vh
   Cellpadding:0
 }
 
-/* .links-table td {*/
-/*  font-weight:bold !important; */
-/*  white-space: normal !important; */
-/*  word-wrap: break-word;  */
-  /*float: none !important;*/
-  /*margin: 0 auto;*/
-  /* overflow-x: hidden !important;*/
-  /* min-height: 100%;*/
-/*}*/
+
 
 
  @media only screen and (max-width : 414px) {
@@ -1384,7 +1376,7 @@ padding-top: 23vh
  
 
   .links-columns{
-   padding-top: 20vh;
+   padding-top: 15vh;
    margin: 0 auto;
    float: none;
    border-spacing: 0;
@@ -1598,67 +1590,6 @@ label{
   background:black;
   
     }
-  
-      
-/*margin:0px -50px -15px 0px;*/
-  /*margin-bottom:200px!important;*/
-  
-  /* position: absolute;*/
-  /*top: 0;*/
-  /*bottom: 20px;*/
-  /*left: 0;*/
-  /*right: 0;*/
-  /*margin-bottom: 50px;*/
-  /*text-align: center;*/
-  /* border-radius: 6px;*/
-
- 
-/*  .btn-send{*/
-/*   background-color:white!important;*/
-/*   color:red;*/
-/*  }*/
- 
- 
-/*.display-flex {*/
-
-/*display: -webkit-box;*/
-
-/*display: -ms-flexbox;*/
-
-/*display: flex;*/
-
-/*-webkit-box-align: center;*/
-
-/*-ms-flex-align: center;*/
-
-/*align-items: center;*/
-
-/*-webkit-box-pack: center;*/
-
-/*-ms-flex-pack: center;*/
-
-/*justify-content: center;*/
-
-/*-webkit-box-orient: vertical;*/
-
-/*-webkit-box-direction: normal;*/
-
-/*-ms-flex-direction: column;*/
-
-/*flex-direction: column;*/
-
-/*}*/
-
-/*.hero-image-overlay {*/
-
-/*position: absolute;*/
-
-/*text-align: center;*/
-
-/*width: 50%;*/
-
-/*}*/
-
 
 .thumbnail {
     position: relative;
@@ -1670,6 +1601,121 @@ label{
     left: 0;
     width: 100%;
 }
+
+
+
+/*-------------------------------------------- Discography Footer-----------------------------------------------*/ 
+
+    .discography-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  background:black;
+
+
+}
+
+
+/*-------------------------------------------- Media Footer-----------------------------------------------*/ 
+
+    .media-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  background:black;
+
+
+}
+
+
+/*-------------------------------------------- Tour Dates Footer-----------------------------------------------*/ 
+
+    .tour-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  background:black;
+
+
+}
+
+
+/*-------------------------------------------- Booking Footer-----------------------------------------------*/ 
+
+    .booking-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  background:black;
+
+
+}
+
+
+/*-------------------------------------------- Blog Footer-----------------------------------------------*/ 
+
+    .blog-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  /*background:black;*/
+  /*background: rgba(0, 0, 0, 0);*/
+  background: transparent;
+
+
+}
+
+
+/*-------------------------------------------- Links Footer-----------------------------------------------*/ 
+
+    .links-footer {
+  display:flex;
+  position: relative;
+  align-items: flex-end;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  /*background:black;*/
+  /*background: rgba(0, 0, 0, 0);*/
+  background: transparent;
+
+
+}
+
+
 
 
 /*.image-overlay button  {*/
