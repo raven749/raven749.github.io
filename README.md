@@ -54,14 +54,8 @@ I changed it to give the required Layout with central columns or table.
 
 A navigation bar was created at the top, social media icons below this to the right and the columns/ tables below and a footer at the bottom.
 
-The Website was hosted and tested in Cloud9, creating all the required HTML pages, CSS page and storing required Images and sound files.
-
-The code was run on Google Chrome and fully tested. It was also tested on Internet Explorer.
-
-The Final Version of the code was deployed to GiTHB
 
 
-I have enclosed a seperate **Final Project – Raven Website.doc** Word Document which documents the design of the website
 
 
 
@@ -94,6 +88,21 @@ Details of the latest Blog from the band and an accessible archive of previous B
 
 Links to external sites with information about the band
 
+
+**Testing**
+
+The Website was hosted and tested in Cloud9, creating all the required HTML pages, CSS page and storing required Images and sound files.
+
+The code was run on Google Chrome and fully tested. 
+
+On testing in **Microsoft Edge** it was discovered that the Raven History Image with transparency was disappearing.
+
+It was fixed by including an IE+Edge compatibility link in the Header to fix this known bug of rendering images in CSS
+
+The Final Version of the code was deployed to GiTHB
+
+
+I have enclosed a separate **Final Project – Raven Website.doc** Word Document which documents the design of the website
 
 
 
