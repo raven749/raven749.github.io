@@ -5,7 +5,7 @@ html {
 
 
 
-/*--------------------------------------------Images---------------------------------------------------------------*/
+/*--------------------------------------------Background Images---------------------------------------------------------------*/
 
 
 
@@ -172,12 +172,10 @@ html {
     background-size: contain;
 }
 
-.album-text-image{
-    
-}
-/*--------------------------------------------Navbar---------------------------------------------------------------*/
 
+/*--------------------------------------------Navigation bar---------------------------------------------------------------*/
 
+/*--------------------------------Navbar Postion and Appearance------------------------------------------*/ 
 
 .navbar {
     /*font-family: Arial, sans-serif */
@@ -195,6 +193,8 @@ html {
     width: 100%;
 
      }
+
+/*--------------------------------Navbar Opacity------------------------------------------*/ 
      
 .navbar-nav {
     width: 100%;
@@ -204,7 +204,8 @@ html {
     -khtml-opacity: 0.7;
     background-color: black;
 
-    
+/*------------------------------Navbar List-Items appearance-------------------------------*/ 
+
 }
 .navbar-nav > li {
     float: none;
@@ -215,6 +216,8 @@ html {
     background-color: black;
 }     
  
+/*------------------------------Navbar Link appearance-------------------------------*/  
+ 
 .navbar-nav > li > a {
     color: red !important;
     font-size: 1.2em !important;
@@ -223,6 +226,7 @@ html {
 
 }
 
+/*------------------------------Navbar hover over Link-------------------------------*/ 
 
 .navbar-nav > li > a:hover{
 color: white !important;
@@ -232,10 +236,13 @@ background-color: red!important;
 }
 
 
+/*---------------------..---------Navbar Active Link-----------------..--------------*/ 
+
  .navbar-nav > .active > a {
 color: #faebd7 !important;
 }
 
+/*-----------------------.....-------Navbar Red-------------------------.......------*/ 
 
 .navbar .navbar-default .navbar-inverse .nav-postition li a{
     color: red;
@@ -246,13 +253,12 @@ color: #faebd7 !important;
  
  /*--------------------------------------------Icons---------------------------------------------------------------*/
  
-
- 
-
+  /*-------------------------------------Icons List Row Padding---------------------------------------------*/
 
 .media-list{
  padding-top: 2vh;
 }
+
 
 .list-section-class{
     padding-bottom: 0;
@@ -260,6 +266,8 @@ color: #faebd7 !important;
     float: none;
     
 }
+
+/*-------------------------------------Icons List Column Padding---------------------------------------------*/
 
 .social-media-list{
     top: 0px;
@@ -272,6 +280,7 @@ color: #faebd7 !important;
   
 }
 
+  /*-------------------------------------Icons List Appearance---------------------------------------------*/
 
 .list-inline .list-group-item {
   background-color: white;
@@ -282,7 +291,7 @@ color: #faebd7 !important;
 
 
 
-
+  /*-------------------------------------Icons List Row Padding---------------------------------------------*/
 
 
 .social-media-list ul li a:hover i {
@@ -305,6 +314,8 @@ color: #faebd7 !important;
   padding-top: 7vh!important;
  }
  
+ 
+ /*-------------------------------------Icons List Responsive Sizing---------------------------------------------*/ 
  
 
 @media (max-width:768px){
@@ -394,6 +405,8 @@ color: #faebd7 !important;
 
 
 
+ /*-------------------------------------Home Columns Responsive Sizingg---------------------------------------------*/
+
 @media only screen and (max-width : 1200px) {
  .columns-section-class{
     /*margin: 300px;*/
@@ -480,8 +493,6 @@ color: #faebd7 !important;
 }
 
 
-
-
  
  .columns-section-class{
     margin: 0 auto;
@@ -497,34 +508,32 @@ color: #faebd7 !important;
  }
  
  
- 
+  /*-------------------------------------Latest News Column---------------------------------------------*/
  
  .section-column-latest-news{
     color:red;
-    /*margin-left:2px;*/
-    /*margin-right: 2px;*/
-    margin-top:0;
-    /*padding-top:30vh!important;*/
 }
-
 
 
 .latest-news-item{
     color: #ffffff;
 }
  
+  /*-------------------------------------Latest Album Column---------------------------------------------*/
+ 
 .section-column-latest-album{
     color:red;
-    font-weight: bold;
-    /*margin-left:2px;*/
-    /*margin-right: 2px;*/
+    font-weight: bolder;
+    padding-top: 3vh;
 }
+
+  /*-------------------------------------Latest Blog Column---------------------------------------------*/
 
 .section-column-blog{
     color:red;
     font-weight: bold;
-    /*margin-left:2px;*/
-    /*margin-right: 2px;*/
+    margin-top:0;
+
 }
 
 .latest-blog-content{
@@ -533,7 +542,22 @@ color: #faebd7 !important;
 
 
 
- /*-------------------------------------------- History Columns---------------------------------------------------------------*/
+ /*-------------------------------------------- History Column-------------------------------------------------------------------------*/
+ 
+ 
+   /*-------------------------------------History Header---------------------------------------------*/
+ 
+ .history-header{
+ background-color:transparent;
+ background: rgba(255, 0, 0, 0)!important;
+  font-family: "Lithos Pro Regular";
+ font-size: 3em!important;
+  font-weight: bold!important;
+  color:red;
+  padding-top: 3vh; 
+}
+ 
+   /*-------------------------------------Column Appearance---------------------------------------------*/
 
 
 .history-column{
@@ -544,6 +568,7 @@ color: #faebd7 !important;
 background: rgba(0, 0, 0, 0.2);
 }
 
+  /*------------------------------------1st History Paragraph ---------------------------------------------*/
 
 .raven-history { 
     display: block;
@@ -568,6 +593,7 @@ background: rgba(0, 0, 0, 0.2);
     overflow-y:scroll; 
 }
     
+  /*------------------------------------2nd History Paragraph ---------------------------------------------*/  
     .raven-history-2{
       display: block;
      /*padding-top: 20vh!important;*/
@@ -589,24 +615,14 @@ background: rgba(0, 0, 0, 0.2);
    
 }
 
-.history-header{
- background-color:transparent;
- background: rgba(255, 0, 0, 0)!important;
-  font-family: "Lithos Pro Regular";
- font-size: 3em!important;
-  font-weight: bold!important;
-  color:red;
-  padding-top: 3vh; 
-}
+
+ /*------------------------------------Semi-Transparent Hierarchy Image ---------------------------------------------*/  
 
 .hierarchy { 
  opacity: 1 !important;
  margin-bottom: 15px;
 
 }
-
-
-
 
 .tree-container {
   width: 100%;
@@ -624,11 +640,16 @@ background: rgba(0, 0, 0, 0.2);
 
 
 
- /*-------------------------------------------- Discography Columns---------------------------------------------------------------*/
+ /*-------------------------------------------- Discography Page-------------------------------------------------------------*/
+ 
+ /*------------------------------------Discography Container Padding ---------------------------------------------*/ 
 
 .discography-container{
 padding-top: 14vh
 }
+
+
+/*------------------------------------Discography Container Heading ---------------------------------------------*/ 
 
 .discography-header{
  font-family: "Lithos Pro Regular";
@@ -645,6 +666,9 @@ padding-top: 14vh
      color: red!important;
 }
 
+
+/*------------------------------------Discography Table Appearance ---------------------------------------*/ 
+
   .raven-discography caption {
      color: red!important;
      font-size: 24px!important;
@@ -657,7 +681,12 @@ padding-top: 14vh
    color: white!important;
 }
 
- /*-------------------------------------------- Media Columns---------------------------------------------------------------*/
+
+
+
+ /*-------------------------------------------- Media Page Columns---------------------------------------------------------------*/
+ 
+ /*------------------------------------Responsive Media Columns ---------------------------------------------*/ 
  
 @media only screen and (max-width : 1200px) {
  .media-columns-section-class{
@@ -757,6 +786,7 @@ padding-top: 14vh
     float: none;
  }
 
+/*------------------------------------Music Column Appearance-------------------------------------------*/ 
 
  .music {
      color: white!important;
@@ -775,11 +805,15 @@ padding-top: 14vh
      font-weight:800!important;
      font-size: 0.8em!important;
   }
-  
+ 
+ 
+ /*------------------------------------Video Column Appearance-------------------------------------------*/  
   
    .section-column-video{
     color:red;
 }
+
+/*------------------------------------Latest News Column Appearance-------------------------------------------*/ 
 
  .section-column-latest-news{
     color:red;
@@ -790,6 +824,7 @@ padding-top: 14vh
 }
 
 
+/*------------------------------------Photo Column Appearance-------------------------------------------*/ 
 
  .photo-text{
      padding-left: 5vh!important;
@@ -808,15 +843,19 @@ padding-top: 14vh
 }
 
 
+
 /*-------------------------------------------- Blog Columns---------------------------------------------------------------*/
 
-
+/*------------------------------------Blog Padding------------------------------------------*/ 
 
  .blog-columns{
   padding-left: 30vw;
   padding-right: 30vw;
    padding-top: 18vh;
  }
+
+
+/*------------------------------------Latest Blog Column------------------------------------------*/ 
 
  .blog-para{
   margin-top:0;
@@ -826,10 +865,6 @@ padding-top: 14vh
   font-size: medium;
  }
  
- 
- .blog-table{
-
-}
 
  .para-header{
   margin: 0 auto;
