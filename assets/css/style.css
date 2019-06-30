@@ -14,18 +14,19 @@ html {
     
    background-repeat: no-repeat;
     background-position: center center !important;
+    /*background-position: 50% 50%!important;*/
     background-attachment: fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
     background-color: black;
-    padding: 0;
-    margin: 0;
-    float: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    float: none !important;
     padding-bottom: 120px;
     position:relative;
-    min-height:100%;
+    /*min-height:100%;*/
     padding-bottom: 800px
     
   
@@ -303,10 +304,11 @@ color: #faebd7 !important;
 
 
 .center-block {
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    display: block;
+    justify-content: center;
+    align-items: center;
+
     position: relative;
+    vertical-align: middle;
 
  }
  
@@ -405,7 +407,7 @@ color: #faebd7 !important;
 
 
 
- /*-------------------------------------Home Columns Responsive Sizingg---------------------------------------------*/
+ /*-------------------------------------Home Columns Responsive Sizing---------------------------------------------*/
 
 @media only screen and (max-width : 1200px) {
  .columns-section-class{
@@ -414,6 +416,7 @@ color: #faebd7 !important;
      width: 40vw!important;
     padding-top: 15vh !important;
     padding-right: 0;
+    padding-left: 0;
     justify-content: center;
     vertical-align: top !important;
     align-items: center;
@@ -463,8 +466,9 @@ color: #faebd7 !important;
      width: 35vw;
     padding-top: 0 !important;
     padding-right: 0;
+    padding-left: 0;
     justify-content: center;
-    vertical-align: top !important;
+    vertical-align: middle !important;
     align-items: center;
     float: none !important;
     overflow-x: hidden !important;
@@ -472,6 +476,24 @@ color: #faebd7 !important;
     position: relative
     /*padding-left: 1px !important;*/
      }
+     #page-index{
+          padding-right: 0;
+    padding-left: 0;
+    justify-content: center;
+    vertical-align: middle !important;
+    align-items: center;
+    float: none !important;
+    overflow-x: hidden !important;
+
+-webkit-background-size: contain;
+    
+-moz-background-size: contain;
+    
+-o-background-size: contain;
+    
+background-size: contain;
+background-position: center;
+}
 }
 
 @media only screen and (max-width : 320px) {
@@ -482,7 +504,7 @@ color: #faebd7 !important;
     padding-top: 0;
     padding-right: 0;
     justify-content: center;
-    vertical-align:top;
+    vertical-align: middle;
     align-items: center;
     float: none;
     overflow-x: hidden !important;
@@ -925,7 +947,7 @@ padding-top: 14vh
     float: none !important;
     overflow-x: hidden !important;
     min-height:100%;
-    margin-bottom: 5%
+    /*margin-bottom: 5%*/
      }
 }
 
@@ -1255,15 +1277,111 @@ label{
     
     .footer {
   position: absolute;
+  top: 50vh;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
   height: 450px;
-  display: flex;
+  display: inline-flex;
     }
   
+  
+
+@media only screen and (max-width : 1200px) {
+    .footer {
+   position: absolute;
+  top: 85vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+
+}
+
+@media only screen and (max-width : 979px) {
+    .footer {
+   position: absolute;
+  top: 80vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+   .footer {
+  position: absolute;
+  top: 70vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+ 
+}
+  
+
+  @media only screen and (min-width:374px) and (max-width : 376px) {
+  .footer {
+  position: absolute;
+  top: 60vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+   
+  }
+  
+    @media only screen and (max-width : 373px) {
+    .footer {
+   position: absolute;
+  top: 50vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+} 
+
+  @media only screen and (max-width : 321px) {
+    .footer {
+   position: absolute;
+  top: 70vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  height: 450px;
+  display: inline-flex;
+    }
+} 
+
   .raven-logo{
     float: none;
     vertical-align: bottom;
@@ -1277,7 +1395,7 @@ label{
   .copyright{
    font-family: sans-serif;
    color: red!important;
-   font-size: 1.5em!important;
+   font-size: 2vw!important;
    background-color: transparent!important;
    font-weight: bolder;
    position:relative;
@@ -1299,13 +1417,13 @@ label{
     align-items: flex-end;
     /*float: none;*/
     padding-bottom: 0;
-     bottom:0;
-     margin-bottom: 0;
-      font-family: "Lithos Pro Regular";
- font-size: 4em!important;
-  font-weight: bold!important;
-  color:red;
-  opacity:1!important;
+    bottom:0;
+    margin-bottom: 0;
+    font-family: "Lithos Pro Regular";
+   font-size: 4vw!important;
+   font-weight: bold!important;
+   color:red;
+   opacity:1!important;
   /*padding-top: 3vh;*/
   }
   
@@ -1324,7 +1442,7 @@ label{
   .contact-link{
    /*font-family: sans-serif;*/
    color: red!important;
-   /*font-size: 4em!important;*/
+   font-size: 4vw!important;
    background-color: transparent!important;
   }
 
@@ -1332,15 +1450,17 @@ label{
 /*-------------------------------------------- History Footer-----------------------------------------------*/ 
 
     .history-footer {
+  top: 220vh;
   display:flex;
-  position: relative;
-  align-items: flex-end;
+  position: absolute;
+  align-items: center;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  /*padding: 1rem;*/
   text-align: center;
-  height: 450px;
+  height: 400px;
+  /*width: 80vw;*/
   background:black;
   
     }
@@ -1355,6 +1475,7 @@ label{
     left: 0;
     width: 100%;
 }
+
 
 
 
